@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "my-package"
+name = "sin_and_step_functions_shifter"
 version = "0.1.0"
 description = "generates signals, modifies them, and plots them"
 authors = [
