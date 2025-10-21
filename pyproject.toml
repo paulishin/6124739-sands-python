@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-package"
+version = "0.1.0"
+description = "generates signals, modifies them, and plots them"
+authors = [
+    { name = "Paulina", email = "p.shinkorenko@student.tudelft.nl" }
+]
+dependencies = ["numpy", "os", "matplotlib"]
